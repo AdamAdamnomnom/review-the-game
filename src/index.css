@@ -9,6 +9,8 @@
 
 code, pre, .font-mono {
   font-family: 'JetBrains Mono', monospace;
+  font-variant-ligatures: none;
+  font-feature-settings: "liga" 0, "calt" 0;
 }
 
 /* Custom scrollbars */

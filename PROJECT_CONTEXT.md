@@ -210,6 +210,14 @@ Uwagi zgłoszone przez Product Managera do wdrożenia w kolejnym sprincie (BEZ Z
    * Gracz zauważa schemat, że najdłuższa odpowiedź to zazwyczaj ta poprawna.
    * *Rozwiązanie:* Wyrównanie objętości tekstu wszystkich 4 opcji ABCD, tak by dystraktory (błędne odpowiedzi) były równie rozbudowane, techniczne i wiarygodne jak opcja poprawna.
 
+9. 🔤 **Wyłączenie ligatur fontu (Font Ligatures Disabled):**
+   * W fontach programistycznych takich jak JetBrains Mono symbole `==`, `===` czy `=>` łączą się automatycznie w jeden znak (ligaturę), co myli graczy przy szukaniu błędów składniowych.
+   * *Rozwiązanie:* Wyłączenie ligatur w CSS (`font-variant-ligatures: none; font-feature-settings: "liga" 0, "calt" 0;`). Znaki `==`, `===`, `=>` wyświetlają się jako wyraźne, oddzielne litery.
+
+10. 📱 **Ergonomia wyświetlania kodu na wąskich ekranach:**
+   * Przewijanie horyzontalne długich linii może być uciążliwe na telefonach.
+   * *Plan na przyszłość:* Dodanie opcji przełączania zawijania wierszy (Word Wrap / `whitespace-pre-wrap`) lub skracanie linii w wyzwaniach początkujących do max 60-70 znaków.
+
 ---
 
 ## 17. Roadmapa Technologiczna
